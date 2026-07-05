@@ -4,7 +4,11 @@ public class Box {
     double l;
     double h;
     double w;
-    double weight;
+//    double weight;
+
+    static void greeting() {
+        System.out.println("Hey, I am in Box class. Greetings!");
+    }
 
     Box() {
         this.h = -1;

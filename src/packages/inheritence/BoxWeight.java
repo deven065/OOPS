@@ -3,8 +3,13 @@ package packages.inheritence;
 public class BoxWeight extends Box{
     double weight;
 
-    BoxWeight() {
+    public BoxWeight() {
         this.weight = -1;
+    }
+
+//    @Override
+    static void greeting() {
+        System.out.println("Hey, I am in BoxWeight class. Greetings!");
     }
 
     BoxWeight(BoxWeight other) {
